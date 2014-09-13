@@ -39,7 +39,7 @@ Here's what to do:
   - Do the following labs (it's probably best to do them in the following order)
      - [x] Basic lab 1, `HelloWorldExercise`
      - [x] Basic lab 1, `OOExercise`
-     - [ ] Basic lab 2, `ListManipulationExercise01`
+     - [x] Basic lab 2, `ListManipulationExercise01`
      - [ ] Basic lab 2, `ListManipulationExercise02`
      - [ ] Basic lab 2, `CollectionExercise01`
      - [ ] Basic lab 3, `PatternMatchingExercise`
