@@ -69,7 +69,10 @@ object PatternMatchingExercise {
    *    otherwise return `None`
    */
   def older(p: Person): Option[String] = {
-    if (p.age > 30) Some(p.name) else None
+    p match{
+      case x if x.age > 30 => Some(x.name)
+      case _ => None
+    }
   }
 }
 
