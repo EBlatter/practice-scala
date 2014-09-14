@@ -44,7 +44,7 @@ Here's what to do:
      - [x] Basic lab 2, `CollectionExercise01`
      - [x] Basic lab 3, `PatternMatchingExercise`
      - [x] Basic lab 3, `RecursionPatternMatchingExercise`
-     - [ ] Basic lab 3, `OptionExercise`
+     - [x] Basic lab 3, `OptionExercise`
   - [ ] Review the solutions included with the lab
   - [ ] Review Ben's solutions (some of which are different)
   - [ ] Write about Scala in `scala-thoughts.md`
