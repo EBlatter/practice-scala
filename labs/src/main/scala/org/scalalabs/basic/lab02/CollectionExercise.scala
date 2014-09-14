@@ -33,7 +33,14 @@ object CollectionExercise01 {
    *
    */
   def googleCodeJamGooglerese(lines: String*): Seq[String] = {
-    error("fix me")
+   val input = "ejp mysljylc kd kxveddknmc re jsicpdrysi rbcpc ypc rtcsra dkh wyfrepkym veddknkmkrkcd de kr kd eoya kw aej tysr re ujdr lkgc jv y e q"
+   val output = "our language is impossible to understand there are twenty six factorial possibilities so it is okay if you want to just give up a o z"
+ 
+   val inputChars = input.toList
+   val outputChars = output.toList
+   val charMap = inputChars.zip(outputChars).toMap
+   
+   lines.map(_.toList.map(charMap(_)).mkString).toSeq
   }
 }
 /*========================================================== */
